@@ -1,0 +1,13 @@
+body {
+    background-color: #222;
+    color: #ddd;
+    font-family: sans-serif;
+    width: 95%;
+    max-width: 1000px;
+    margin: 5rem auto;
+}
+
+img {
+    width: 100%;
+    filter: invert(85%);
+}
