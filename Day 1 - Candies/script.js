@@ -5,6 +5,6 @@ function candies(children, candy) {
     
 }
 
-console.log(candies(3, 10));
-console.log(candies(4, 23));
-console.log(candies(8, 77));
+console.log('Total number of candies eaten: ', candies(3, 10));
+console.log('Total number of candies eaten: ', candies(4, 23));
+console.log('Total number of candies eaten: ', candies(8, 77));
