@@ -3,7 +3,7 @@ function depositProfit(deposit, rate, threshold) {
     let numbOfYears = 0;
     let balance = deposit;
     
-    while (balance <= threshold) {
+    while (balance < threshold) {
         balance += balance * rate;
         numbOfYears++;
     }    
