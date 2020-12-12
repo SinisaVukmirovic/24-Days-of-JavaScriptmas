@@ -1,5 +1,5 @@
 function adjacentElementsProduct(nums) {
-    let maxPairProduct = 0;
+    let maxPairProduct = nums[0] * nums[1];
 
     for (let i = 0; i < nums.length - 1; i++) {
         let currentPairProduct = nums[i] * nums[i + 1];
