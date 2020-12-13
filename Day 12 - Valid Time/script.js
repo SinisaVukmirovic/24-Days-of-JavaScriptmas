@@ -1,7 +1,8 @@
 function validTime(str) {
-    const hoursMinsArr = str.split(':');
-    const hours = parseInt(hoursMinsArr[0]);
-    const mins = parseInt(hoursMinsArr[1]);
+    let [hours, mins] = str.split(':');
+
+    hours = parseInt(hours);
+    mins = parseInt(mins);
 
     if (hours < 0 || hours > 23 || mins < 0 || mins > 59) {
         return false;
