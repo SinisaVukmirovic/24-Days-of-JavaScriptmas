@@ -1,7 +1,6 @@
 const app = document.querySelector('.app');
 const tweetTextArea = app.querySelector('#tweetTextArea');
 const counter = app.querySelector('#counter');
-const charsLeft = app.querySelector('#charsLeft');
 const tweetBtn = app.querySelector('#tweetBtn');
 const maxChars = 140;   
 
@@ -22,7 +21,7 @@ const charsRemaining = () => {
 };
 
 const tweetOut = () => {
-    const typedTweet = tweetTextArea.value;
+    let typedTweet = tweetTextArea.value;
     const tweetOutLink = app.querySelector('#tweetOutLink');
     const tweeterUrl = 'https://twitter.com/intent/tweet?text=';
 
